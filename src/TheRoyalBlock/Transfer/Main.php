@@ -59,7 +59,7 @@ class Main extends PluginBase implements Listener{
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getLogger()->info(self::PREFIX . "Loading...");
-		$this->getServer()->getCommandMap()->register('cmdname', new \TheRoyalBlock\PluginName\Commands\transferCommand($this));
+		$this->getServer()->getCommandMap()->register('cmdname', new \TheRoyalBlock\Transfer\Commands\transferCommand($this));
 		$this->getServer()->getLogger()->info(self::PREFIX . "Everything has loaded!");  
 	}
       
