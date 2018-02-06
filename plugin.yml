@@ -1,0 +1,12 @@
+name: Transfer
+author: TheRoyalBlock
+api: [3.0.0-ALPHA11]
+version: 1.0
+main: TheRoyalBlock/Transfer/Main
+
+command:
+  transfer:
+    description: Resize yourself
+    usage: /transfer <player> <ip> <port> <message>
+# Permissions 
+permissions: []
