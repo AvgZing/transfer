@@ -1,5 +1,5 @@
 <?php
-namespace TheRoyalBlock\PluginName;
+namespace TheRoyalBlock\Transfer;
   
 //Blocks
 use pocketmine\block\Block;
